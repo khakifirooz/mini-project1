@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+.container{
+    box-sizing: border-box; /*     ابعاد جعبه همان که تایین کردیم باشد و پدینگ ها و بوردر ها نتوانند تغییر ایجاد کنند  */
+    width: 600px;
+    height:520px;
+    background-color: lightcyan;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px 0;
+    box-shadow: 0 0 20px #242626;
+    border-radius: 15px;
+}
+.crab{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border: 1px dotted blue;
+    border-radius: 50%;
+}
+.name{
+   /* text-align: center;*/
+    border-bottom: 5px solid black;
+    font-size: 25px;
+    width: 265px;
+    margin: auto;
+    padding: 25px auto;
+    color: #4c636e;
+}
+.description{
+    text-align: center;
+    font-size: 25px;
+}
+.social{
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border: 1px dotted blue;
+    border-radius: 50%;
+    
+}
